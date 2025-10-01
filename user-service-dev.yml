@@ -1,8 +1,5 @@
 spring:
-  application:
-    name: user-service
-
-datasource:
+  datasource:
     url: jdbc:postgresql://localhost:5433/userdb
     username: lukesh
     password: querty
@@ -12,6 +9,7 @@ datasource:
       ddl-auto: create
     database: POSTGRESQL
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
 eureka:
   client:
     service-url:
